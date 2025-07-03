@@ -4,7 +4,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - run: echo "show-directory.yml – $GITHUB_WORKFLOW"
+    - run: echo "show-directory – $GITHUB_WORKFLOW"
       # Устанавливаем Node.js
       - uses: actions/setup-node@v4
       # Ставим зависимости
